@@ -10,7 +10,7 @@ async function addItem(userCart, item){
 async function calculateTotal(userCart){
     console.log ("Carrinho da shopee total")
     const result = userCart.reduce((total, item)=> total + item.subtotal(), 0)
-    console.log(`\nTotal: ${result}`);
+    console.log(`\nTotal: ${result.toFixed(2)}`);
 }
 
 //--deletar item do carrinho
