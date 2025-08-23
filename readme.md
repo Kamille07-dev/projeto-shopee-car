@@ -1,10 +1,23 @@
-## objetivo
+# 🛒 Shoppe - Carrinho de Compras
 
-Criar um carrinho de compras baseado no carrinho de compras da shopee, 
-aonde o carrinho armazene itens e faça o cálculo de sub-itens automaticamente
+Projeto de um **carrinho de compras** inspirado no estilo da Shopee, onde é possível adicionar itens, calcular subtotais automaticamente e obter o total do carrinho.
 
-// dominio da aplicação: carrinho de compras
+---
 
-//as ententidades representadas
-//-> carinho
-//-> itens
+## 🚀 Funcionalidades
+
+- Adicionar itens ao carrinho (nome, preço e quantidade).  
+- Atualizar a quantidade de itens existentes.  
+- Remover itens do carrinho.  
+- Calcular subtotal de cada item e total do carrinho.  
+
+---
+
+## 🛠️ Tecnologias
+
+- **Node.js** (ES Modules)  
+- **JavaScript**  
+
+
+
+
